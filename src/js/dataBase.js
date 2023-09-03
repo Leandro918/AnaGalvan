@@ -60,7 +60,32 @@ const base = [
     {
         img : "./src/acets/bride/03.jpg",
         type : "bride" 
-    }
+    },
+
+    {
+        img : "./src/acets/after/01.jpg",
+        type : "after" 
+    },
+    {
+        img : "./src/acets/after/02.jpg",
+        type : "after" 
+    },
+    {
+        img : "./src/acets/after/03.jpg",
+        type : "after" 
+    },
+    {
+        img : "./src/acets/after/04.jpg",
+        type : "after" 
+    },
+    {
+        img : "./src/acets/after/05.jpg",
+        type : "after" 
+    },
+    {
+        img : "./src/acets/after/06.jpg",
+        type : "after" 
+    },
    
 
 ]

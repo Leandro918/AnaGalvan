@@ -9,7 +9,7 @@ function addCards(box) {
             boxBlondes.appendChild(createCards(element))
         }else if(element.type == "hairstyle"){
             boxHairstyle.appendChild(createCards(element))
-        }else if (element.type == "models") {
+        }else if (element.type == "after") {
             boxModels.appendChild(createCards(element))
         }else if (element.type == "bride") {
             boxBride.appendChild(createBrides(element))
@@ -47,6 +47,20 @@ function createBrides(element) {
 
     return tagLi
 
+}
+
+function createAfter(element) {
+    let tagImg = document.createElement('img')
+    let tagLi  = document.createElement('li')
+
+    tagImg.classList.add("photos_models")
+    tagLi.classList.add("box_photos--models")
+
+    tagImg.src = element.img
+
+    tagLi.append(tagImg)
+
+    return tagLi
 }
 
 {/* <li class="box_photos--models">
