@@ -303,6 +303,7 @@ dialog{
     background-position: center;
     background-position-x: 100%;
     background-position-y: 100%;
+    background-repeat: no-repeat;
     color: var(--gold-00);
     border: none;
     z-index: 2;
