@@ -27,6 +27,14 @@ const base = [
         img : "./src/acets/blondes/07.jpg",
         type : "blondes" 
     },
+    {
+        img : "./src/acets/blondes/08.jpg",
+        type : "blondes" 
+    },
+    {
+        img : "./src/acets/blondes/09.jpg",
+        type : "blondes" 
+    },
 
     {
         img : "./src/acets/hairstyle/01.jpg",
@@ -86,6 +94,23 @@ const base = [
         img : "./src/acets/after/06.jpg",
         type : "after" 
     },
+
+    {
+        img : "./src/acets/space/01.jpg",
+        type : "space" 
+    },
+    {
+        img : "./src/acets/space/02.jpg",
+        type : "space" 
+    },
+    {
+        img : "./src/acets/space/03.jpg",
+        type : "space" 
+    },
+    {
+        img : "./src/acets/space/04.jpg",
+        type : "space" 
+    }
    
 
 ]

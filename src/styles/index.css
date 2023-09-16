@@ -158,12 +158,29 @@
     border-bottom: 2px solid var(--pink-00);
 }
 
-.box_hairstyle, .box_models, .box_blondes{
+.box_hairstyle, .box_models, .box_blondes, .container_space{
     width: 100%;
-    height: 370px;
-    overflow-y: auto;
+    height: 365px;
+    overflow-x: auto;
     display: flex;
     
+}
+
+.descripion_space{
+    font-family: var(--font-logo);
+    font-size: 22px;
+    color: var(--gold-00);
+    margin: 5px;
+    border-bottom: 2px solid var(--pink-00);
+}
+.box_space{
+    width:330px;
+    height: 363px;
+    margin: 5px;
+}
+.box_space--img{
+    width: 324px;
+    height: 362px;
 }
 
 .box_photos--hairstyle, .box_photos--models{
@@ -194,8 +211,8 @@
     margin: 10px;
 }    
 .box_photos--brides{
-    width: 215px;
-    height: 285px;
+    width: 245px;
+    height: 320px;
 }
 .box_descripion--bride{  
     width: 95%;
@@ -204,6 +221,17 @@
 .descripion_bride{
     color: var(--gold-00);
     font-family: var(--font-main);
+    margin: 0px 0px 18px;
+}
+.descripion_bride--icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid var(--pink-00);
+    width: 95%;
+    height: 45px;
+    margin: auto;
+    color: var(--gold-00);
 }
 
 .photos_hairstyle--descripition{
@@ -215,6 +243,24 @@ h4{
     color: var(--gold-00);
 }
 
+.container_work{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 15px 0px;
+    gap: 6px;
+}
+.container_work--img{
+    width: 180px;
+    border-radius: 50%;
+}
+.container_work--descripition{
+    margin: 7px;
+    color: var(--gold-00);
+}
+
 .box_footer{
     border-top: 1px solid var(--gold-00);
     width: 100%;
@@ -222,9 +268,15 @@ h4{
     
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
   
+}
+.information{
+    color: var( --color-text-00);
+    font-family: var(--font-main);
+    font-size: 14px;
+    margin: 5px;
 }
 
 .box_footer--socialNav{
@@ -234,10 +286,46 @@ h4{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin: 0px 0px 0px 25px;
 }
 
 .redirect_descripition{
     font-family: var(--font-main);
     font-weight: 400;
     font-size: 15px;
+}
+
+
+dialog{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../acets/background/infoBack.jpg");
+    background-position: center;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    color: var(--gold-00);
+    border: none;
+    z-index: 2;
+}
+
+.modal_box{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 0px 0px;
+     
+}
+.modal_buttClose{
+    color: var(--gold-00);
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    right: 12px;
+    
+}
+.modal_info{
+    color: var(--gold-00);
+    font-size: 20px;
+    font-family: var(--font-main);
 }
