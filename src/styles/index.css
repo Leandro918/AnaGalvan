@@ -313,15 +313,15 @@ dialog{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5px 0px 0px 0px;
+    margin: 55px 0px 0px 0px;
      
 }
 .modal_buttClose{
     color: var(--gold-00);
     font-size: 20px;
     position: fixed;
-    top: 10px;
-    right: 12px;
+    top: 25px;
+    right: 32px;
     
 }
 .modal_info{
