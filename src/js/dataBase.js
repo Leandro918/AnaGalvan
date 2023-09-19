@@ -72,27 +72,23 @@ const base = [
 
     {
         img : "./src/acets/after/01.jpg",
-        type : "after" 
+        type : "after" ,
+        descripition : "Antes"
+    },
+    {
+        img : "./src/acets/after/011.jpg",
+        type : "after" ,
+        descripition : "Depois"
     },
     {
         img : "./src/acets/after/02.jpg",
-        type : "after" 
+        type : "after" ,
+        descripition : "Antes"
     },
     {
-        img : "./src/acets/after/03.jpg",
-        type : "after" 
-    },
-    {
-        img : "./src/acets/after/04.jpg",
-        type : "after" 
-    },
-    {
-        img : "./src/acets/after/05.jpg",
-        type : "after" 
-    },
-    {
-        img : "./src/acets/after/06.jpg",
-        type : "after" 
+        img : "./src/acets/after/022.jpg",
+        type : "after" ,
+        descripition : "Depois"
     },
 
     {

@@ -3,6 +3,7 @@ let boxHairstyle = document.querySelector(".box_hairstyle")
 let boxBlondes   = document.querySelector(".box_blondes")
 let boxBride     = document.querySelector(".box_bride")
 let boxSpace     = document.querySelector(".container_space")
+let boxAfter     = document.querySelector(".container_after")
 
 function addCards(box) {
      box.forEach(element => {
@@ -10,8 +11,8 @@ function addCards(box) {
             boxBlondes.appendChild(createCards(element))
         }else if(element.type == "hairstyle"){
             boxHairstyle.appendChild(createCards(element))
-        }else if (element.type == "afterr") {
-            boxModels.appendChild(createCards(element))
+        }else if (element.type == "after") {
+            boxAfter.appendChild(createAfter(element))
         }else if (element.type == "bride") {
             boxBride.appendChild(createBrides(element))
         }else if (element.type == "space") {
@@ -55,16 +56,21 @@ function createBrides(element) {
 function createAfter(element) {
     let tagImg = document.createElement('img')
     let tagLi  = document.createElement('li')
+    let tagH2  = document.createElement('h2')
 
-    tagImg.classList.add("photos_models")
-    tagLi.classList.add("box_photos--models")
+    tagH2.classList.add("box_descripition--after")
+    tagImg.classList.add("box_photo--after")
+    tagLi.classList.add("box_after")
 
     tagImg.src = element.img
+    tagH2.innerText = element.descripition
 
-    tagLi.append(tagImg)
+    tagLi.append(tagImg, tagH2)
 
     return tagLi
 }
+
+
 
 function createSpace(element) {
     let tagImg = document.createElement('img')
