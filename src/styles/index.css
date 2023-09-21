@@ -200,6 +200,7 @@
     height: 450px;
     overflow-y: auto;
     display: flex;
+    gap: 10px;
 }
 .photos_brides{
     width: 275px;
@@ -232,8 +233,7 @@
     color: var(--gold-00);
     font-size: 20px;
     font-family: var(--font-main);
-    margin: 6px;
-}
+    margin: 40px 10px 0px 10px;}
 
 .photos_hairstyle--descripition{
     color: var(--color-00);
@@ -246,23 +246,15 @@
     flex-direction: column;
     align-items: center;
 }
-.box_after, .box_space{
+.box_space{
     width: 100%;
     margin: auto;
 }
-.box_photo--after, .box_space--img{
+.box_space--img{
     width: 100%;
     margin: auto;
 }
-.box_descripition--after{
-   position: relative;
-   bottom: 485px;
-   margin: 0px 0px 0px 30px;
-   font-family: 'Courgette', cursive;
-   font-weight: 600;
-   font-size: 30px;
-   color: black;
-}
+
 
 .redirect_schedule{
     width: 65%;
@@ -370,4 +362,32 @@ dialog{
     color: var(--gold-00);
     font-size: 20px;
     font-family: var(--font-main);
+}
+
+
+.box_after{
+    width: 100%;
+    display: flex;
+    border-bottom: 9px double var(--pink-00);
+}
+
+.box_after--descripition{
+    position: absolute;
+    height: 25px;
+    margin: 20px;
+    font-family: var(--font-logo);
+    font-weight: 600;
+    font-size: 20px;
+}
+.box_after--descripition-right{
+    position: absolute;
+    right: 25px;
+    margin: 20px;
+    font-family: var(--font-logo);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box_after--photo{
+    width: 50%;
 }

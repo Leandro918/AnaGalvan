@@ -69,19 +69,23 @@ const base = [
         img : "./src/acets/bride/03.jpg",
         type : "bride" 
     },
-
     {
-        img : "./src/acets/after/01.jpg",
-        type : "after" ,
-        descripition : "Antes"
+        img : "./src/acets/bride/04.jpg",
+        type : "bride" 
     },
+    {
+        img : "./src/acets/bride/05.jpg",
+        type : "bride" 
+    },
+  
+
     {
         img : "./src/acets/after/011.jpg",
         type : "after" ,
         descripition : "Depois"
     },
     {
-        img : "./src/acets/after/02.jpg",
+        img : "./src/acets/after/01.jpg",
         type : "after" ,
         descripition : "Antes"
     },
@@ -90,6 +94,12 @@ const base = [
         type : "after" ,
         descripition : "Depois"
     },
+    {
+        img : "./src/acets/after/02.jpg",
+        type : "after" ,
+        descripition : "Antes"
+    },
+   
 
     {
         img : "./src/acets/space/01.jpg",
@@ -104,10 +114,13 @@ const base = [
         type : "space" 
     },
     {
-        img : "./src/acets/space/04.jpg",
+        img : "./src/acets/space/05.jpg",
+        type : "space" 
+    },
+    {
+        img : "./src/acets/space/06.jpg",
         type : "space" 
     }
-   
 
 ]
 
