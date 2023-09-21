@@ -366,8 +366,10 @@ dialog{
 
 
 .box_after{
-    width: 100%;
+    width: 99%;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
     border-bottom: 9px double var(--pink-00);
 }
 
@@ -389,5 +391,5 @@ dialog{
 }
 
 .box_after--photo{
-    width: 50%;
+    width: 48%;
 }
